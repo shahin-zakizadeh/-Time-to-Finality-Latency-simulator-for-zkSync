@@ -8,28 +8,23 @@ Web3 Integration: Utilizes the web3 library to interact with the zkSync and Ethe
 Customizable Simulations: Allows users to set the number of simulations to run for more accurate average latency measurements.
 Real-time Results: Prints simulated Time to Finality (TTF) for each transaction and calculates the average TTF over multiple simulations.
 Installation
+
 # Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/zkSync-latency-simulator.git
-cd zkSync-latency-simulator
-Install the required dependencies:
+```git clone https://github.com/yourusername/zkSync-latency-simulator.git
+cd zkSync-latency-simulator```
 
-bash
-Copy code
-pip install -r requirements.txt
+# Install the required dependencies:
+
+```pip install -r requirements.txt```
 
 #Usage
 Configure the zksync_rpc_url and eth_rpc_url in the script or use your own URLs:
 
-python
-Copy code
-zksync_rpc_url = "https://mainnet.era.zksync.io"
-eth_rpc_url = "https://mainnet.infura.io/v3/YOUR-PROJECT-ID"
 
-#Run the simulator:
+```zksync_rpc_url = "https://mainnet.era.zksync.io"
+eth_rpc_url = "https://mainnet.infura.io/v3/YOUR-PROJECT-ID"```
 
-bash
-Copy code
-python simulate.py
+# Run the simulator:
+
+```python simulate.py```
