@@ -4,7 +4,32 @@ This project is a Time to Finality (Latency) simulator for zkSync, developed usi
 
 # Features
 Simulation of Transaction Latency: Simulates the time taken for transactions to achieve finality on zkSync.
-Web3 Integration: Utilizes the web3 library to interact with the zkSync network and retrieve real-time data.
-Customizable Parameters: Allows users to customize simulation parameters such as transaction volume, network congestion, and gas fees.
-Data Visualization: Provides visual representations of latency data to help users understand the performance of zkSync under various conditions.
-Comprehensive Documentation: Includes detailed documentation to guide users on how to set up and use the simulator effectively.
+Web3 Integration: Utilizes the web3 library to interact with the zkSync and Ethereum networks.
+Customizable Simulations: Allows users to set the number of simulations to run for more accurate average latency measurements.
+Real-time Results: Prints simulated Time to Finality (TTF) for each transaction and calculates the average TTF over multiple simulations.
+Installation
+# Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/zkSync-latency-simulator.git
+cd zkSync-latency-simulator
+Install the required dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+
+#Usage
+Configure the zksync_rpc_url and eth_rpc_url in the script or use your own URLs:
+
+python
+Copy code
+zksync_rpc_url = "https://mainnet.era.zksync.io"
+eth_rpc_url = "https://mainnet.infura.io/v3/YOUR-PROJECT-ID"
+
+#Run the simulator:
+
+bash
+Copy code
+python simulate.py
