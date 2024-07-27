@@ -22,9 +22,9 @@ pip install -r requirements.txt
 Configure the zksync_rpc_url and eth_rpc_url in the script or use your own URLs:
 
 
-```zksync_rpc_url = "https://mainnet.era.zksync.io"
+zksync_rpc_url = "https://mainnet.era.zksync.io"
 eth_rpc_url = "https://mainnet.infura.io/v3/YOUR-PROJECT-ID"
 
 # Run the simulator:
 
-```python simulate.py
+python simulate.py
