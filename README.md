@@ -1,4 +1,6 @@
 # Time to Finality Latency simulator for zkSync
+
+
 # Overview
 This project is a Time to Finality (Latency) simulator for zkSync, developed using Python and the web3 library. It aims to simulate and measure the latency involved in reaching finality on the zkSync Layer 2 protocol. zkSync is a Layer 2 scaling solution for Ethereum, designed to increase throughput and reduce gas fees while maintaining the security and decentralization of the Ethereum mainnet.
 
